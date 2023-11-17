@@ -47,6 +47,10 @@ to quickly create a Cobra application.`,
 			switch payload {
 			case "hello":
 				err = m.Send(fmt.Sprintf("Hello I'm KbottenBot %s!", appVersion))
+			case "Що там по русні?":
+				err = m.Send("Please use *rusHI*", &telebot.SendOptions{ParseMode: "Markdown"})
+			case "rusHI":
+				err = m.Send("*peaceDA!*", &telebot.SendOptions{ParseMode: "Markdown"})
 			}
 
 			return err
