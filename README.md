@@ -1,1 +1,1 @@
-KbottenBot is my first Telegram bot. If started then available with t.me/KbottenBot and can show it's version and answer "Що там по русні?"
+KbottenBot is my first Telegram bot. If started then available with https://t.me/KbottenBot and can show it's version and answer "Що там по русні?"
